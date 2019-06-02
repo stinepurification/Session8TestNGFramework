@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+>>>>>>> branch 'master' of https://github.com/stinepurification/Session8TestNGFramework.git
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="23788" started-at="2019-06-02T08:12:12Z" finished-at="2019-06-02T08:12:36Z">
+=======
+  <suite started-at="2019-06-02T14:18:13Z" name="Default suite" finished-at="2019-06-02T14:18:36Z" duration-ms="23489">
+>>>>>>> branch 'master' of https://github.com/stinepurification/Session8TestNGFramework.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Default test" duration-ms="23788" started-at="2019-06-02T08:12:12Z" finished-at="2019-06-02T08:12:36Z">
       <class name="test.AddNewTransactionTest">
         <test-method status="PASS" signature="navigateToTransaction()[pri:0, instance:test.AddNewTransactionTest@5ca609]" name="navigateToTransaction" duration-ms="23726" started-at="2019-06-02T03:12:12Z" finished-at="2019-06-02T03:12:36Z">
+=======
+    <test started-at="2019-06-02T14:18:13Z" name="Default test" finished-at="2019-06-02T14:18:36Z" duration-ms="23489">
+      <class name="test.AddDepositTest">
+        <test-method signature="AddDepositToVeryfyDepositPosted()[pri:0, instance:test.AddDepositTest@657c8ad9]" started-at="2019-06-02T14:18:13Z" name="AddDepositToVeryfyDepositPosted" finished-at="2019-06-02T14:18:36Z" duration-ms="23434" status="PASS">
+>>>>>>> branch 'master' of https://github.com/stinepurification/Session8TestNGFramework.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- navigateToTransaction -->
       </class> <!-- test.AddNewTransactionTest -->
+=======
+        </test-method> <!-- AddDepositToVeryfyDepositPosted -->
+      </class> <!-- test.AddDepositTest -->
+>>>>>>> branch 'master' of https://github.com/stinepurification/Session8TestNGFramework.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

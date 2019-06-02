@@ -16,6 +16,10 @@ public class LoginPage {
 	@FindBy(how = How.ID, using = "username") WebElement UserName;
 	@FindBy(how = How.ID, using = "password") WebElement Password;
 	@FindBy(how = How.NAME, using = "login") WebElement SignInButton;
+<<<<<<< HEAD
+=======
+	//Methods to interact with the elements
+>>>>>>> branch 'master' of https://github.com/stinepurification/Session8TestNGFramework.git
 	
 	public void login(String userName, String password) {
 		UserName.sendKeys(userName);
