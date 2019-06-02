@@ -13,7 +13,6 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
-	// Element Library
 	@FindBy(how = How.ID, using = "username") WebElement UserName;
 	@FindBy(how = How.ID, using = "password") WebElement Password;
 	@FindBy(how = How.NAME, using = "login") WebElement SignInButton;

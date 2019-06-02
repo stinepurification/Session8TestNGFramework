@@ -5,16 +5,18 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import page.LoginPage;
+import page.VerifyLogin;
 import util.BrowserFactory;
 
-public class LoginTest {
+public class VerifyLoginTest {
 	
 	@Test
-	public void loginTest() {
+	
+	public void loginTest() throws InterruptedException {
 		WebDriver driver = BrowserFactory.startBrowser();
 		driver.get("http://techfios.com/test/billing/?ng=admin/");
-		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-		loginPage.login("techfiosdemo@gmail.com", "abc123");
+		VerifyLogin verifyLogin = PageFactory.initElements(driver, VerifyLogin.class);
+		verifyLogin.LoginVerify();
 		//Adding comment to make a change in file in order to re commit
 	}
 }
