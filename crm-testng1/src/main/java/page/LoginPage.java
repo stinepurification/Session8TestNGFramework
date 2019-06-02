@@ -15,7 +15,7 @@ public class LoginPage {
 	//Element Library
 	@FindBy(how = How.ID, using = "username") WebElement UserName;
 	@FindBy(how = How.ID, using = "password") WebElement Password;
-	@FindBy(how = How.NAME, using = "ogin") WebElement SignInButton;
+	@FindBy(how = How.NAME, using = "login") WebElement SignInButton;
 	//Methods to interact with the elements
 	
 	public void login(String userName, String password) {	
