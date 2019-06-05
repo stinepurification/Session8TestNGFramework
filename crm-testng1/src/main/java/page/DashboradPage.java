@@ -36,4 +36,13 @@ public class DashboradPage extends BasePage {
 		AddExpenseButton.click();
 	}
 
+	public void waitForDashBoardPage() {
+		waitForElement(PageTitle, driver);
+
+	}
+
+	public boolean isDashBoardPageTitleDisplayed() {
+		return PageTitle.isDisplayed();
+	}
+
 }
